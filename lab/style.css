@@ -1,0 +1,69 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav .logo {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1% 0;
+}
+
+.menu-links {
+    text-align: center;
+    width: 60%;
+}
+
+.menu-links ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.menu-links ul li {
+    font-size: 0.8em;
+}
+
+.menu-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    margin: 5% 20%;
+}
+
+.content .tagline {
+    color: rgba(0, 0, 0, 0.36);
+    font-family: 'Raleway', sans-serif;
+}
+
+.content .title {
+    font-size: 10rem;
+}
+
+.content .desc .copy span{
+    color: rgb(118, 169, 118);
+}
+
+.content .desc .para {
+    font-size: 0.8em;
+}
+
+.beer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    visibility: hidden;
+}
+
+.beer img{
+    width: 40vw;
+}
+
